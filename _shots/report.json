@@ -1,6 +1,6 @@
 {
-  "src": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\斗地主记分牌.html",
-  "url": "file:///C:/Users/andy/Doubao/chats/2026-10-11/new-chat/%E6%96%97%E5%9C%B0%E4%B8%BB%E8%AE%B0%E5%88%86%E7%89%8C.html",
+  "src": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\index.html",
+  "url": "file:///C:/Users/andy/Doubao/chats/2026-10-11/new-chat/index.html",
   "outdir": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\_shots",
   "include": [
     "lint",
@@ -9,8 +9,8 @@
   ],
   "shots": {
     "desktop": {
-      "screenshot": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\_shots\\斗地主记分牌_desktop.jpg",
-      "screenshotBytes": 31614,
+      "screenshot": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\_shots\\index_desktop.jpg",
+      "screenshotBytes": 32835,
       "truncated": false,
       "structure": {
         "title": "斗地主记分牌",
@@ -21,7 +21,7 @@
         },
         "fullpage": {
           "w": 1422,
-          "h": 952
+          "h": 1011
         },
         "counts": {
           "section": 4,
@@ -96,7 +96,7 @@
   "chromiumExec": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
   "engineDegraded": true,
   "engineDegradedReason": "playwright 未装",
-  "elapsedSec": 3.45,
+  "elapsedSec": 4.17,
   "schemaVersion": 2,
   "status": "warning",
   "engineInfo": {
@@ -107,9 +107,9 @@
     ]
   },
   "input": {
-    "original": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\斗地主记分牌.html",
-    "resolvedPath": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\斗地主记分牌.html",
-    "baseUrl": "file:///C:/Users/andy/Doubao/chats/2026-10-11/new-chat/%E6%96%97%E5%9C%B0%E4%B8%BB%E8%AE%B0%E5%88%86%E7%89%8C.html",
+    "original": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\index.html",
+    "resolvedPath": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\index.html",
+    "baseUrl": "file:///C:/Users/andy/Doubao/chats/2026-10-11/new-chat/index.html",
     "protocol": "file",
     "cwd": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat",
     "mediaMode": {
@@ -120,8 +120,8 @@
     "screenshots": [
       {
         "viewport": "desktop",
-        "path": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\_shots\\斗地主记分牌_desktop.jpg",
-        "size": 31614,
+        "path": "C:\\Users\\andy\\Doubao\\chats\\2026-10-11\\new-chat\\_shots\\index_desktop.jpg",
+        "size": 32835,
         "visualCoverage": {
           "complete": true,
           "reason": null

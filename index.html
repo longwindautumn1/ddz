@@ -74,7 +74,7 @@
   .input-row{display:flex;align-items:stretch;gap:10px;}
   .num{flex:1;font-size:18px;font-weight:700;padding:12px 14px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink);min-height:48px;font-variant-numeric:tabular-nums;}
   .num:focus{outline:none;border-color:var(--red);}
-  .seg{display:flex;border:2px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;}
+  .seg{display:flex;border:2px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;margin-top:10px;}
   .seg button{flex:1;border:none;background:transparent;padding:0 14px;min-width:66px;font-size:15px;font-weight:700;color:var(--ink-soft);cursor:pointer;min-height:48px;}
   .seg button.on{background:var(--red);color:#fff;}
   .seg button.on.lose{background:var(--green-ok);}
@@ -196,10 +196,10 @@
       <label>本局得分（地主赢多少 / 输多少）</label>
       <div class="input-row">
         <input class="num" id="scoreInput" type="number" inputmode="decimal" step="0.5" min="0" placeholder="例：30">
-        <div class="seg" id="seg">
-          <button class="on" data-mode="win">地主赢</button>
-          <button class="on lose" data-mode="lose">地主输</button>
-        </div>
+      </div>
+      <div class="seg" id="seg">
+        <button class="on" data-mode="win">地主赢</button>
+        <button class="on lose" data-mode="lose">地主输</button>
       </div>
     </div>
     <div class="preview" id="preview"></div>
